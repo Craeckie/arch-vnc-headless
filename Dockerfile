@@ -1,4 +1,4 @@
-FROM archlinux/base
+FROM archlinux
 
 RUN pacman -Sy && pacman -S --noconfirm xfce4 tigervnc xorg
 RUN pacman -Sy && pacman -S --noconfirm vim wget bc
